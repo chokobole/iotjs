@@ -73,7 +73,7 @@ Driver.prototype.config = function() {
 
   parser.addOption('start-from', "", "",
     "a test case file name where the driver starts.");
-  parser.addOption('quiet', "yes|no", "yes",
+  parser.addOption('quiet', "yes|no", "no",
     "a flag that indicates if the driver suppresses " +
     "console outputs of test case");
   parser.addOption('output-file', "", "",
